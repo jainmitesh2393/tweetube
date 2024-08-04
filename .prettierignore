@@ -1,0 +1,6 @@
+/node_mode
+./dist
+
+*.env
+.env
+.env.*
