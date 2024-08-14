@@ -19,4 +19,12 @@ app.use(cookieParser()) // can use cookies and do crud operations on them
 
 
 
+//routes import 
+
+import userRouter from "./routes/user.routes.js"
+
+
+//routes declaration
+app.use("/api/v1/users",userRouter)
+
 export {app}
